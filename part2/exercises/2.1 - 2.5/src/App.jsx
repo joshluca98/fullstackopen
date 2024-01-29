@@ -47,13 +47,13 @@ const App = () => {
   ]
 
   return (
-    <>
+    <div>
       {courses.map((part,index) => (
         <div key={part.id}>
           <Course course={courses[index]}/>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 
